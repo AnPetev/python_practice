@@ -1,14 +1,14 @@
 
 #problem №1
 file = open('input.txt', 'r')
-lines = file.readlines()
+lines = file.read()
+nums = lines.split()
 sum_ = 0
-for line in lines:
-    for char in line:
-        if char.isdigit() == True:
-            sum_ += int(char)
+for line in nums:
+        if line.isdigit() == True:
+            sum_ += int(line)
 print(sum_)
-file.close()
+
 
 # problem  №2
 file = open('text.txt', 'r')
