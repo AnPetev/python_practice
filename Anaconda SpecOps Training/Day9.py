@@ -3,7 +3,7 @@ import random
 #create file which consists of random numbers in range(1,200)
 file = open('output.txt', 'w')
 res = []
-for line in range(4 * 100):
+for line in range(4 * 10 ** 9):
       value = random.randint(1, 201)
       file.write(f" {value} ")
       res.append(value)
