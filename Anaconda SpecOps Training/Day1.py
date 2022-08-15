@@ -95,9 +95,11 @@ def sub(num):
 
 #problem №10
 def odd(start, end):
-    count = (end - start) // 2
-    if start % 2 != 0 or end % 2 != 0:
-        count += 1
-    return count
-
+      count = 0
+      while start <= end:
+            if start % 2 != 0:
+                  count += 1
+            start += 1
+      return count
+      
 print(odd(3,7))
