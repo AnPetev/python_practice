@@ -48,15 +48,16 @@ for i in range(0, len(s)):
 
 #problem №6
 file = open('count.txt', 'r')
-d = dict()
-for line in file:
-      words = line.split()
-      for word in words:
-            if word in d:
-                  d[word] = d[word] + 1
-            else:
-                  d[word] = 1
-print(d)
+line = file.read()
+words = line.split()
+dict = {}
+for s in words:
+      if s in dict:
+            dict[s] += 1
+      else:
+            dict[s] = 1
+for key ,value in dict.items():
+      print(key, value)
 
 #problem №7
 def square(lst):
