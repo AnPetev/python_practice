@@ -11,10 +11,12 @@ print(sum_)
 
 
 # problem  №2
-file = open('text.txt', 'r')
-for line in file:
-    output = line.title()
-    print(output)
+file = open('input.txt', 'r')
+for num in file:
+      str = num.title()
+output = open('output.txt', 'w')
+output.write(str)
+
     
 # problem №3
 def count_freq(lst):
@@ -36,6 +38,14 @@ txt = file.read()
 count_symbols = len(txt)
 print(count_symbols)
 
+#problem №5
+res = ''
+s = 'python.'
+for i in range(0, len(s)):
+      if i % 3 != 0:
+            res += s[i]
+# print(res)
+
 #problem №6
 file = open('count.txt', 'r')
 d = dict()
@@ -46,7 +56,7 @@ for line in file:
                   d[word] = d[word] + 1
             else:
                   d[word] = 1
-print(d1)
+print(d)
 
 #problem №7
 def square(lst):
