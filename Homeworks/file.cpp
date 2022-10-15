@@ -12,7 +12,6 @@
 void load_obj_file()
 {
       struct stat sb;
-      
       //trying open object file
       int fd = open("obj.o", O_RDONLY);
       if(fd <= 0)
