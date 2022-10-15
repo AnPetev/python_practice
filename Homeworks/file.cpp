@@ -1,3 +1,5 @@
+//Trying to load and read object file, cant get information about it
+
 #include <iostream>
 #include <string>
 #include <fstream>
