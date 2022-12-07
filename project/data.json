@@ -1,0 +1,22 @@
+{"1": [{"id": "8af1d0e6808fb86501809239989c002e", "break_duration": 15,
+        "start_time_type": "RELATIVE_TO_CLASS_START", "start_times": ["01:30:00", "01:45:00"]},
+{"id": "8af1d0e6808fb86501809239989c002f", "break_duration": 15, "start_time_type": "RELATIVE_TO_CLASS_START",
+    "start_times": ["02:00:00", "02:15:00"]},
+{"id": "8af1d0e6808fb86501809239989c0030", "break_duration": 15, "start_time_type": "RELATIVE_TO_CLASS_START",
+    "start_times": ["02:30:00", "02:45:00"]},
+{"id": "8af1d0e6808fb86501809239989c0031", "break_duration": 15, "start_time_type": "RELATIVE_TO_CLASS_START",
+    "start_times": ["03:00:00", "03:15:00"]},
+{"id": "8af1d0e6808fb86501809239989c0032", "break_duration": 60, "start_time_type": "RELATIVE_TO_CLASS_START",
+    "start_times": ["03:00:00", "03:30:00"]}],
+"2": [{"id": "8af1d0e6808fb8650180923998d2003b", "break_duration": 15, "start_time_type": "RELATIVE_TO_CLASS_START",
+       "start_times": ["01:45:00", "02:00:00"]},
+    {"id": "8af1d0e6808fb8650180923998d2003c", "break_duration": 60, "start_time_type": "RELATIVE_TO_CLASS_START",
+     "start_times": ["04:00:00", "04:15:00", "04:30:00", "04:45:00", "05:00:00", "05:15:00", "05:30:00", "05:45:00", "06:00:00"]},
+    {"id": "8af1d0e6808fb8650180923998d2003d", "break_duration": 15, "start_time_type": "RELATIVE_TO_CLASS_START",
+     "start_times": ["07:30:00", "07:45:00", "08:00:00"]},
+    {"id": "8af1d0e6808fb8650180923998d2003e", "break_duration": 10, "start_time_type": "RELATIVE_TO_SHIFT_END",
+     "start_times": ["00:10:00"]}]
+ }
+
+
+
