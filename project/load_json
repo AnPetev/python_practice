@@ -1,0 +1,3 @@
+'''reading data from data json and load it'''
+        with open("data.json") as data:
+            info = json.load(data)
